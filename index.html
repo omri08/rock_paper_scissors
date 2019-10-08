@@ -1,10 +1,31 @@
 <!DOCTYPE html>
 <html>
+  <head>
+      <link rel = "stylesheet" href="styles.css">
+    <h1>ROCK PAPER SCISSORS!</h1>
 
-<head>
-    <script src="script.js"></script> 
-</head>
-<body>
+    <hr>
+  </head>
+  <body>
+    <div class="container">
+      <section class="scores-container">
+          <p class="score wins">wins:<section class="wins"></section>  </p>
+          <p class="score ties">ties:<section class="ties"></section></p>
+          <p class="score losses">losses:</p>
+      </section>
+      <section class= "choice-container">
+          <p class="pc-move">computer chose:</p>
+          <p class="player-move">you chose:</p>
+          <p class="result"></p>
 
-</body>
+      </section>
+      <section class= "buttons-container">
+          <button class="buttons rock">ROCK</button>
+          <button class="buttons paper">PAPER</button>
+          <button class="buttons scissors">SCISSORS</button>
+      </section>
+    </div>
+
+   <script src='script.js'></script>
+  </body>
 </html>
